@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <dcfg>
+    <startup>
+      <startStackOnPanelStart>true</startStackOnPanelStart>
+      <stopStackOnPanelQuit>true</stopStackOnPanelQuit>
+    </startup>
+    <services>
+      <apachePort>8083</apachePort>
+      <apachePortHttps>8443</apachePortHttps>
+      <mysqlPort>33067</mysqlPort>
+      <defaultPhpNum>2</defaultPhpNum>
+      <isPhpFastCgi>1</isPhpFastCgi>
+      <startTimeout>60</startTimeout>
+    </services>
+    <dlgDirs>
+      <selImportedSiteCodebase/>
+      <selImportedSiteDbDump/>
+    </dlgDirs>
+    <cloud>
+      <url>https://cloudapi.acquia.com/v1/</url>
+      <username></username>
+      <password></password>
+    </cloud>
+    <tracking>
+      <enabled>0</enabled>
+    </tracking>
+  </dcfg>
+</root>

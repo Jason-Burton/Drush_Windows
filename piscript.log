@@ -1,0 +1,138 @@
+[13:51:58] Post install script started 12/05/2016
+[13:51:58] Upgrade:0
+[13:51:58] Install D:\DevDesktop/common/cfgbox/AcquiaDevDesktop/dynamic.xml to D:\DevDesktop/AcquiaDevDesktop/dynamic.xml. Flags: 2
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/AcquiaDevDesktop/dynamic.xml"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/AcquiaDevDesktop/static.ini to D:\DevDesktop/AcquiaDevDesktop/static.ini. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/AcquiaDevDesktop/static.ini"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/apache/conf/httpd.conf to D:\DevDesktop/apache/conf/httpd.conf. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/apache/conf/httpd.conf"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/apache/conf/vhosts.conf to D:\DevDesktop/apache/conf/vhosts.conf. Flags: 2
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/apache/conf/vhosts.conf"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/tools/composer.bat to D:\DevDesktop/tools/composer.bat. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/tools/composer.bat"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/tools/drush.bat to D:\DevDesktop/tools/drush.bat. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/tools/drush.bat"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/tools/pipelines.bat to D:\DevDesktop/tools/pipelines.bat. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/tools/pipelines.bat"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/mysql/my.cnf to D:\DevDesktop/mysql/my.cnf. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/mysql/my.cnf"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/mysql/bin/mysql.cmd to D:\DevDesktop/mysql/bin/mysql.cmd. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/mysql/bin/mysql.cmd"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/php5_3/php.ini to D:\DevDesktop/php5_3/php.ini. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/php5_3/php.ini"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/php5_4/php.ini to D:\DevDesktop/php5_4/php.ini. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/php5_4/php.ini"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/php5_5/php.ini to D:\DevDesktop/php5_5/php.ini. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/php5_5/php.ini"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/php5_6/php.ini to D:\DevDesktop/php5_6/php.ini. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/php5_6/php.ini"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/php7_0/php.ini to D:\DevDesktop/php7_0/php.ini. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/php7_0/php.ini"
+[13:51:58] Install D:\DevDesktop/common/cfgbox/phpmyadmin/config.inc.php to D:\DevDesktop/phpmyadmin/config.inc.php. Flags: 1
+[13:51:58] Making substitutions in "D:\DevDesktop/common/cfgbox/phpmyadmin/config.inc.php"
+[13:51:58] SubstituteConfigVars() - Setup vars:SetupVars Object
+(
+    [APACHE_DOCROOT] => D:\Sites\devdesktop
+    [APACHE_PORT] => 8083
+    [APACHE_PORT_HTTPS] => 8443
+    [MYSQL_PORT] => 33067
+    [DB_USERNAME] => drupaluser
+    [INSTALL_DIR] => D:\DevDesktop
+    [INSTALL_DIR_UNIX_FMT] => D:/DevDesktop
+    [PLATFORM_NAME] => windows
+    [AD_VER] => 2-2016-09-05
+    [SYS_USER] => Jason
+    [UPGRADE] => 
+    [TEMP_DIR] => C:\Users\Jason\AppData\Local\Temp
+    [TIMEZONE] => UTC
+    [ENABLE_TRACKING] => 0
+    [_upgCtx] => 
+)
+
+
+[13:51:58] Making substitutions in "D:\DevDesktop/MasterLicense.txt"
+[13:51:58] Making substitutions in "D:\DevDesktop/phpmyadmin/config.inc.php"
+[13:51:58] Making substitutions in "D:\DevDesktop/mysql/my.cnf"
+[13:51:58] Updating pipelines client
+[13:51:58] Exec:"D:\DevDesktop/tools/pipelines" self-update
+[13:52:00] Exec result: 0 
+STDOUT:Updating to version [32mc9097837fcf1f0e0d6260813df095b3a71c9f764[39m.
+[32mSuccessfully updated pipeline client.[39m
+ 
+STDERR:
+[13:52:00] Renaming D:\DevDesktop/mysql/data.init to D:\DevDesktop/mysql/data
+[13:52:00] Post install script completed successfully
+08:53:07: === Started on: 2016-12-05 | Ver: 2 | Built: Sep  5 2016 10:12:11 | CpRev: 6b82e81 | StRev: fc4964f | OS: Windows 8 (build 9200), 64-bit edition ===
+08:53:07: DD binary: d:\devdesktop\acquiadevdesktop\acquiadevdesktop2.exe
+08:53:07: Environment:
+=D:=D:\
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Jason\AppData\Roaming
+ASL.LOG=Destination=file
+CHOCOLATEYINSTALL=C:\ProgramData\chocolatey
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=DOCTORPETROLEUM
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DEVDESKTOP_DRUPAL_SETTINGS_DIR=$HOME/.acquia/DevDesktop/DrupalSettings
+FP_NO_HOST_CHECK=NO
+HOME=C:\Users\Jason
+HOMEDRIVE=C:
+HOMEPATH=\Users\Jason
+LC_NUMERIC=C
+LOCALAPPDATA=C:\Users\Jason\AppData\Local
+LOGONSERVER=\\DOCTORPETROLEUM
+MOZ_PLUGIN_PATH=C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+PATH=C:\Ruby200-x64\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\acquia-drupal\mysql\bin;C:\ProgramData\Drush\;C:\Program Files (x86)\Drush\GnuWin32\bin;C:\Program Files (x86)\Drush\Php;C:\ProgramData\Razer\SwitchBlade\SDK;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;O:\CBR Optimize;C:\Program Files\7-Zip\;E:\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\DevDesktop\drush;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\tools\dart-sdk\bin;C:\Users\Jason\AppData\Roaming\Pub\Cache\bin;C:\Program Files (x86)\DevDesktop\php5_6;C:\Users\Jason\AppData\Local\Microsoft\WindowsApps
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=2a07
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES=C:\Program Files (x86)
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMW6432=C:\Program Files
+PSMODULEPATH=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+PUB_CACHE=C:\web_app\PubCache
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\Jason\AppData\Local\Temp
+TMP=C:\Users\Jason\AppData\Local\Temp
+USERDOMAIN=DoctorPetroleum
+USERDOMAIN_ROAMINGPROFILE=DoctorPetroleum
+USERNAME=Jason
+USERPROFILE=C:\Users\Jason
+WINDIR=C:\WINDOWS
+__COMPAT_LAYER=Installer
+
+08:53:07: acqPersonalData created. Data dir: C:\Users\Jason\.acquia\DevDesktop
+08:53:07: Initialize MySQL
+08:53:07: Load mysql dll: D:\DevDesktop\mysql\lib\libmysql.dll
+08:53:07: Initialize site manager
+08:53:07: acqSiteManager created.
+08:53:07: CCUtil::ExecEx() cmd:D:\DevDesktop\common\msys\bin\gui-ssh-agent.exe
+Args: -b C:\Users\Jason\.acquia\DevDesktop\ssh-agent-params.bat 
+08:53:07: Create main window
+08:53:07: Start IPC server. (d:\devdesktop\acquiadevdesktop\acquiadevdesktop2.exe)
+08:53:07: CCUtil::ExecEx() cmd:D:\DevDesktop\tools\drush.bat
+Args: cc drush 
+08:53:07: IPC server started. Name:ADCP-deaaed54c208fb7d3cf895d1554bbce4
+08:53:07: Server uses DDE
+08:53:07: iid:0 eid:0 cid:0
+08:53:07: acqSvcController::StartSvc() SvcId:0 CurSt:notR
+08:53:07: acqServerProcessBase::InitiateStart()
+EXEC: D:\DevDesktop\apache\bin\httpd.exe
+ARG: -D php5_5 -D php_fcgi -C SetEnv DEVDESKTOP_DRUPAL_SETTINGS_DIR 'C:\Users\Jason\.acquia\DevDesktop\DrupalSettings' -f D:\DevDesktop\apache\conf\httpd.conf
+ENV: ="D:=D:\" ALLUSERSPROFILE="C:\ProgramData" APPDATA="C:\Users\Jason\AppData\Roaming" ASL.LOG="Destination=file" CHOCOLATEYINSTALL="C:\ProgramData\chocolatey" COMMONPROGRAMFILES="C:\Program Files (x86)\Common Files" COMMONPROGRAMFILES(X86)="C:\Program Files (x86)\Common Files" COMMONPROGRAMW6432="C:\Program Files\Common Files" COMPUTERNAME="DOCTORPETROLEUM" COMSPEC="C:\WINDOWS\system32\cmd.exe" DEVDESKTOP_DRUPAL_SETTINGS_DIR="$HOME/.acquia/DevDesktop/DrupalSettings" FP_NO_HOST_CHECK="NO" HOME="C:\Users\Jason" HOMEDRIVE="C:" HOMEPATH="\Users\Jason" LC_NUMERIC="C" LOCALAPPDATA="C:\Users\Jason\AppData\Local" LOGONSERVER="\\DOCTORPETROLEUM" MOZ_PLUGIN_PATH="C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\" NUMBER_OF_PROCESSORS="8" OS="Windows_NT" PATH="D:\DevDesktop\php5_5;C:\Ruby200-x64\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\acquia-drupal\mysql\bin;C:\ProgramData\Drush\;C:\Program Files (x86)\Drush\GnuWin32\bin;C:\Program Files (x86)\Drush\Php;C:\ProgramData\Razer\SwitchBlade\SDK;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;O:\CBR Optimize;C:\Program Files\7-Zip\;E:\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\DevDesktop\drush;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\tools\dart-sdk\bin;C:\Users\Jason\AppData\Roaming\Pub\Cache\bin;C:\Program Files (x86)\DevDesktop\php5_6;C:\Users\Jason\AppData\Local\Microsoft\WindowsApps" PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW" PROCESSOR_ARCHITECTURE="x86" PROCESSOR_ARCHITEW6432="AMD64" PROCESSOR_IDENTIFIER="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel" PROCESSOR_LEVEL="6" PROCESSOR_REVISION="2a07" PROGRAMDATA="C:\ProgramData" PROGRAMFILES="C:\Program Files (x86)" PROGRAMFILES(X86)="C:\Program Files (x86)" PROGRAMW6432="C:\Program Files" PSMODULEPATH="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" PUBLIC="C:\Users\Public" PUB_CACHE="C:\web_app\PubCache" SYSTEMDRIVE="C:" SYSTEMROOT="C:\WINDOWS" TEMP="C:\Users\Jason\AppData\Local\Temp" TMP="C:\Users\Jason\AppData\Local\Temp" USERDOMAIN="DoctorPetroleum" USERDOMAIN_ROAMINGPROFILE="DoctorPetroleum" USERNAME="Jason" USERPROFILE="C:\Users\Jason" WINDIR="C:\WINDOWS" __COMPAT_LAYER="Installer"
+08:53:08: acqSvcController::StartSvc() SvcId:1 CurSt:notR
+08:53:08: acqServerProcessBase::InitiateStart()
+EXEC: D:\DevDesktop\mysql\bin\mysqld.exe
+ARG: --defaults-file=D:\DevDesktop\mysql\my.cnf
+ENV:
+08:53:08: drush cc drush ok

@@ -1,0 +1,1 @@
+@"D:\DevDesktop\mysql\bin\mysql.exe" --defaults-file="D:\DevDesktop\mysql\my.cnf" %*

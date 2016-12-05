@@ -1,0 +1,7 @@
+[Mon Dec 05 08:53:08.219639 2016] [ssl:warn] [pid 1192:tid 536] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Dec 05 08:53:08.225643 2016] [mpm_winnt:notice] [pid 1192:tid 536] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2g mod_fcgid/2.3.9 configured -- resuming normal operations
+[Mon Dec 05 08:53:08.225643 2016] [mpm_winnt:notice] [pid 1192:tid 536] AH00456: Apache Lounge VC11 Server built: Dec 11 2015 11:26:53
+[Mon Dec 05 08:53:08.225643 2016] [core:notice] [pid 1192:tid 536] AH00094: Command line: 'D:\\DevDesktop\\apache\\bin\\httpd.exe -d D:/DevDesktop/apache -D php5_5 -D php_fcgi -C SetEnv DEVDESKTOP_DRUPAL_SETTINGS_DIR 'C:\\Users\\Jason\\.acquia\\DevDesktop\\DrupalSettings' -f D:\\DevDesktop\\apache\\conf\\httpd.conf'
+[Mon Dec 05 08:53:08.232648 2016] [mpm_winnt:notice] [pid 1192:tid 536] AH00418: Parent: Created child process 13072
+[Mon Dec 05 08:53:08.910600 2016] [ssl:warn] [pid 13072:tid 592] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Dec 05 08:53:08.916103 2016] [mpm_winnt:notice] [pid 13072:tid 592] AH00354: Child: Starting 64 worker threads.
